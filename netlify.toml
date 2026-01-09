@@ -53,8 +53,8 @@
 # Configuração de Redirecionamento
 # Redireciona HTTP para HTTPS automaticamente
 [[redirects]]
-  from = "http://sbodontologia.netlify.app/*"
-  to = "https://sbodontologia.netlify.app/:splat"
+  from = "http://odontorodacki.netlify.app/*"
+  to = "https://odontorodacki.netlify.app/:splat"
   status = 301
   force = true
 
