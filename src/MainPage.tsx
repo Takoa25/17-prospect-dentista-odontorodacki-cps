@@ -39,10 +39,10 @@ const MainPage: React.FC<MainPageProps> = ({ onNavigateToPrivacy, onNavigateToTe
         <HelmetProvider>
             <ReactLenis root options={{
                 smoothWheel: true,
-                syncTouch: true,
-                touchMultiplier: 2.0, // Reduzido para dar sensação de "peso" e controle
-                lerp: 0.03, // Levemente reduzido para mais suavidade
-                duration: 2.5,
+                syncTouch: false, // Mobile com rolagem nativa para máxima fluidez
+                touchMultiplier: 2.0,
+                lerp: 0.1, // Padrão da indústria (0.1) para resposta instantânea
+                duration: 1.2, // Duração balanceada
                 wheelMultiplier: 1.2
             }}>
                 <div className="min-h-screen bg-white text-slate-900 selection:bg-primary selection:text-black">
